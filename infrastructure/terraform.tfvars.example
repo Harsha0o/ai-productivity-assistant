@@ -1,0 +1,25 @@
+# Terraform Variables Example
+# Copy this file to terraform.tfvars and fill in your values
+
+# AWS Region
+aws_region = "us-east-1"
+
+# Project name (used for resource naming)
+project_name = "task-manager"
+
+# Environment (dev, staging, prod)
+environment = "dev"
+
+# VPC Configuration
+vpc_cidr = "10.0.0.0/16"
+
+# RDS Database Configuration
+db_instance_class = "db.t3.micro"
+db_username = "taskadmin"
+db_password = "YOUR_SECURE_PASSWORD_HERE"  # Use a strong password!
+
+# EC2 Instance Configuration
+ec2_instance_type = "t3.micro"
+
+# Feature Flags
+enable_cloudfront = true

@@ -1,0 +1,7 @@
+{
+    "commands": [
+        "aws s3 cp s3://task-manager-frontend-c4el7g0r/deploy.sh /tmp/deploy.sh",
+        "chmod +x /tmp/deploy.sh",
+        "bash /tmp/deploy.sh"
+    ]
+}
